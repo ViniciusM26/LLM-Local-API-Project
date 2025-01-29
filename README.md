@@ -30,12 +30,29 @@ Antes de executar a aplicação, certifique-se de ter os seguintes requisitos in
 ```
 git clone https://github.com/ViniciusM26/LLM-Local-API-Project.git
 ```
-2. Crie um ambiente virtual:
+2. Instalando o Ollama:
+```
+No Windows
+Baixe o instalador no site oficial:
+https://ollama.com/download
+Siga as instruções do instalador para concluir a instalação.
+
+Baixar o Modelo Utilizado:
+O projeto utiliza o modelo LLaMA 3, que pode ser baixado com o seguinte comando: ollama pull llama3.2:1b
+
+Testar a Instalação
+Após a instalação, execute o seguinte comando para testar se o Ollama está funcionando corretamente: ollama run llama3.2:1b
+
+Se tudo estiver configurado corretamente, o terminal abrirá um prompt onde você pode digitar comandos para o modelo.
+
+Agora, seu ambiente está pronto para rodar a API de resumo e geração de títulos! 🚀
+```
+3. Crie um ambiente virtual:
 ```
 python -m venv env
 source env/bin/activate  # No Windows: env\Scripts\activate
 ```
-3. Instale as dependências:
+4. Instale as dependências:
 ```
 pip install -r requirements.txt
 ```
