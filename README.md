@@ -1,11 +1,11 @@
-# LLM Local com LLaMA 2 e FastAPI
+# LLM Local com LLaMA 3 e FastAPI
 
-Este projeto é uma aplicação web desenvolvida com FastAPI que utiliza um modelo de linguagem LLaMA 2 para gerar resumos de textos fornecidos pelo usuário. Os resumos gerados são salvos como arquivos Word e podem ser baixados diretamente pela interface web.
+Este projeto é uma aplicação web desenvolvida com FastAPI que utiliza um modelo de linguagem LLaMA 3 para gerar resumos de textos fornecidos pelo usuário. Os resumos gerados são salvos como arquivos Word e podem ser baixados diretamente pela interface web.
 
 ## Recursos Principais
 
 - **Interface Web**: Uma página inicial simples para enviar textos e visualizar os resumos gerados.
-- **Resumos Baseados em LLaMA 2**: Uso de um modelo LLaMA para resumir textos.
+- **Resumos Baseados em LLaMA 3**: Uso de um modelo LLaMA para resumir textos.
 - **Arquivos Word**: Os resumos gerados são salvos em arquivos `.docx`.
 - **Download de Arquivos**: Os arquivos podem ser baixados diretamente pela interface web.
 
